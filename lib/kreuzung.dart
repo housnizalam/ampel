@@ -73,6 +73,7 @@ class Kruezung {
         : ample2.walkerAmple2 = "Red";
     ample1.counter++;
     ample2.counter2++;
+  // hghg
 
     if (nacht) {
       ample1.clickedYellow = true;
