@@ -7,6 +7,7 @@ void main() {
   Ample ample2 = Ample();
   Ample ample3 = Ample();
   Ample ample4 = Ample();
+  final ample = ample1;
   Kruezung kruezung = Kruezung(ample1, ample2, ample3, ample4, false);
   kruezung.schalten;
   kruezung.schalten;
@@ -27,6 +28,7 @@ class Ample {
 
   int counter = 0;
   int counter2 = 2;
+  
 }
 
 class Kruezung {
@@ -73,7 +75,7 @@ class Kruezung {
         : ample2.walkerAmple2 = "Red";
     ample1.counter++;
     ample2.counter2++;
-  // hghg
+    // hghg
 
     if (nacht) {
       ample1.clickedYellow = true;
